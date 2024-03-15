@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.carousel-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.image1{
+  height: fit-content;
+  width: fit-content;
+}
+.image2{
+  height: fit-content;
+  width: fit-content;
+}
+.image3{
+  height: fit-content;
+  width: fit-content;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+h3{
+  margin-top: -5px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#myForm{
+  border-radius: 10px;
+  border: 1px solid rgb(153, 152, 152);
+  background-color: white;
+
+  /* Add box shadow */
+  box-shadow: 2px 2px 10px 5px rgba(255, 200, 150, 5);
+}
+
+
+
+.labelName, .labelPassword, .labelEmail, .labelDate{
+  text-align: center;
+  margin-top: 1em;
+}
+
+
+.Name, .password, .Email ,.Date{
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  width: 20em;
+  height: 2.5em;
+
+  border: 1px solid black;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  width: 15em;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#result{
+  border-radius: 10px;
+  border: 1px solid rgb(153, 152, 152);
+  background-color: white;
+  width: 20em;
+  height: 14em;
+  text-align: center;
+
+  /* Add box shadow */
+  box-shadow: 2px 2px 10px 5px rgba(255, 200, 150, 5);
+}
+
+h1, p{
+  font-family: 'Courier New', Courier, monospace;
+
+}
